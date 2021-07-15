@@ -2,17 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyType : MonoBehaviour
+[CreateAssetMenu(fileName ="New Enemy Type",menuName ="EnemyType")]
+public class EnemyType : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Scriptable Objects Oluşturulur
+    // Scriptable Objects default değerleri oluşturulur
+    public Color enemyColor = Color.white;
+    public float enemySpeed = 5f;
+    public Vector3 enemyScale = Vector3.one;
+    public string typeName = "type";
 }

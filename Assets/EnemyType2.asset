@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: EnemyType2
   m_EditorClassIdentifier: 
   enemyColor: {r: 1, g: 0, b: 0, a: 1}
-  enemySpeed: 8
+  enemySpeed: 10
   enemyScale: {x: 1.2, y: 1.2, z: 1.2}
   typeName: Solider
